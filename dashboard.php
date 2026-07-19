@@ -55,11 +55,12 @@ if ($role === 'Patient') {
         <!-- Sidebar -->
         <nav class="col-md-2 d-none d-md-block sidebar">
             <h4 class="text-center mb-4">Epigenia CDSS</h4>
-            <a href="#"><i class="bi bi-speedometer2"></i> Dashboard</a>
+            <a href="dashboard.php"><i class="bi bi-speedometer2"></i> Dashboard</a>
             <a href="#"><i class="bi bi-people"></i> Patients</a>
             <a href="#"><i class="bi bi-heart-pulse"></i> Clinical Alerts</a>
             <a href="#"><i class="bi bi-file-earmark-medical"></i> Prescriptions</a>
             <a href="#"><i class="bi bi-wallet2"></i> Finances</a>
+            <a href="admin_users.php"><i class="bi bi-person-gear"></i> Manage Users</a>
             <a href="index.php" class="mt-5"><i class="bi bi-box-arrow-right"></i> Logout</a>
         </nav>
 

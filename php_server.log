@@ -1,0 +1,25 @@
+[Sun Jul 19 23:35:26 2026] PHP 8.3.6 Development Server (http://localhost:8000) started
+[Sun Jul 19 23:35:50 2026] [::1]:49186 Accepted
+[Sun Jul 19 23:35:50 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'34.134.215.5' (using password: NO) in /app/db.php:18
+Stack trace:
+#0 /app/admin_users.php(2): require_once()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Sun Jul 19 23:35:50 2026] [::1]:49186 [500]: GET /admin_users.php - Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'34.134.215.5' (using password: NO) in /app/db.php:18
+Stack trace:
+#0 /app/admin_users.php(2): require_once()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Sun Jul 19 23:35:50 2026] [::1]:49186 Closing
+[Sun Jul 19 23:36:41 2026] [::1]:54722 Accepted
+[Sun Jul 19 23:36:41 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'34.134.215.5' (using password: NO) in /app/db.php:18
+Stack trace:
+#0 /app/admin_users.php(2): require_once()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Sun Jul 19 23:36:41 2026] [::1]:54722 [500]: GET /admin_users.php - Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'34.134.215.5' (using password: NO) in /app/db.php:18
+Stack trace:
+#0 /app/admin_users.php(2): require_once()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Sun Jul 19 23:36:41 2026] [::1]:54722 Closing
